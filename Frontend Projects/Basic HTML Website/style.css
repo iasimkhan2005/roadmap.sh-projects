@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+#logo{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+}
+.nav-right{
+    list-style: none;
+    display: flex;
+}
+
+.nav-right li{
+    align-content: center;
+    padding: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+#intro-heading{
+    font-size: 35px;
+    align-items: center;
+    justify-items: center;
+}
+
+#center-highlight{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    
+
+}
+
+#bottom-div{
+    display: flex;
+    justify-content: space-evenly;
+}
