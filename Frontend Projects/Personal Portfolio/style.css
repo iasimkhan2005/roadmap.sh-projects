@@ -1,11 +1,14 @@
 body {
+    margin: 0;
+    padding: 0;
     background: darkslategray;
     color: white;
+    max-width: 100%; overflow-x:hidden; 
 }
 
 /* ------------------------------------------------------------ */
 #header {
-    max-width: 100%;
+    width: 100%;
 
 }
 
@@ -40,8 +43,9 @@ a {
 }
 
 /* ------------------------------------------------------------ */
+
 #intro-heading {
-    width: 100%;
+    width: 100vw;
     height: 500px;
     align-content: center;
     font-size: 35px;
@@ -80,8 +84,12 @@ main section {
 
 /* ------------------------------------------------------------ */
 @media only screen and (max-width:1000px) {
+
+    body{
+        margin: 2px;
+    }
     #header {
-        max-width: 100%;
+        width: 100vw;
     }
 
     .navbar {
@@ -89,6 +97,16 @@ main section {
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        padding:0 ;
+    }
+    .nav-right {
+        list-style: none;
+        display: flex;
+        padding: 0;
+    }
+    .nav-right li {
+        align-content: center;
+        padding: 18px;
     }
     main section {
         border: none;
@@ -106,7 +124,7 @@ main section {
 
     #center-highlight section {
 
-        width: 100%;
+        width: 80%;
         padding: 0px 10px;
     }
 
